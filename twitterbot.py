@@ -154,9 +154,9 @@ class Twitterbot:
         bot = self.bot
         bot.implicitly_wait(50)
         time.sleep(np.random.randint(1, 4))
-        hashtags = ["DontBelieveArmenia", "DontBelieveArmenia", "StopArmenianAggression", "StopArmenia",
-                    "SupportAzerbaijan", "khojaly", "khojalygenocide", "karabakhisazerbaijan",
-                    "stoparmenianoccupation", "AzerbaijanNotAlone"]
+        hashtags = ["hashtag1", "hashtag2", "hashtag3", "hashtag4",
+                    "hashtag5", "hashtag6", "hashtag7", "hashtag8",
+                    "hashtag9", "hashtag10"]
 
         visit_counts = np.random.randint(2, 3)
         for i in range(visit_counts):
